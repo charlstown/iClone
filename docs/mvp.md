@@ -13,6 +13,8 @@ El objetivo es validar el flujo básico de extracción de los datos, generación
 
 ## Arquitectura funcional
 
+![iclone-diagram](https://github.com/charlstown/iClone/blob/main/docs/iclone-mvp-explanation.png)
+
 ### 1. Extracción e importación de datos
 
 - **Objetivo:**  
