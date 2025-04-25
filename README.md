@@ -14,8 +14,6 @@
 - **Builds a structured profile** using LLMs, identifying key phrases, words, topics, and behavioral traits
 - **Enables interaction** with a digital clone for testing and validation
 
----
-
 ## 📦 Features
 
 - Activation names and aliases  
@@ -25,14 +23,12 @@
 - Inside jokes, private info, and more  
 - Quantitative metrics (e.g., average message length, sticker usage)
 
----
 
 ## 🚧 Project Status
 
 > iClone is an evolving project.  
 > Functionality, field definitions, and flow may change as we iterate and learn.
 
----
 
 ## 🗺️ Roadmap
 
@@ -40,7 +36,6 @@
 - Enhanced conversational simulation
 - Advanced privacy and customization options
 
----
 
 ## 💬 Contributing
 
