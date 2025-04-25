@@ -23,7 +23,7 @@ El objetivo es validar el flujo básico de extracción de los datos, generación
     - Recopilar los archivos exportados de WhatsApp, emails u otros chats en formato texto (por ejemplo, `.txt` o `.eml`).
     - Guardar los archivos en una carpeta específica del proyecto.
     - Verificar que los archivos contienen los mensajes de interés (sin transformación adicional).
-### 2. [Definición de la plantilla de perfil](https://github.com/charlstown/iClone/blob/main/docs/2-definicion-plantilla)
+### 2. [Definición de la plantilla de perfil](https://github.com/charlstown/iClone/blob/main/docs/2-definicion-plantilla.md)
 
 - **Objetivo:**  
     Establecer una estructura clara y uniforme para los atributos del perfil de usuario.
@@ -33,7 +33,7 @@ El objetivo es validar el flujo básico de extracción de los datos, generación
     - Definir los campos clave que compondrán el perfil (por ejemplo: nombre, temas frecuentes, tono, etc.) y documentarlos.
     - Crear un archivo `perfil_schema.json` con los atributos definidos.
     - Garantizar que esta plantilla será la misma para todos los usuarios a analizar.
-### 3. [Construcción del prompt](https://github.com/charlstown/iClone/blob/main/docs/3-construccion-prompt)
+### 3. [Construcción del prompt](https://github.com/charlstown/iClone/blob/main/docs/3-construccion-prompt.md)
 
 - **Objetivo:**  
     Preparar el mensaje que se enviará al LLM para que genere el perfil a partir de los datos proporcionados.
@@ -61,7 +61,7 @@ El objetivo es validar el flujo básico de extracción de los datos, generación
     - Validar que el JSON de salida cumple con el schema definido.
     - Guardar el perfil generado en un archivo (`perfil_usuario.json`) en la carpeta de resultados.
   
-### 6. [Validación manual del perfil generado (prueba de simulación)](https://github.com/charlstown/iClone/blob/main/docs/6-validacion-manual)
+### 6. [Validación manual del perfil generado (prueba de simulación)](https://github.com/charlstown/iClone/blob/main/docs/6-validacion-manual.md)
 
 - **Objetivo:**  
     Comprobar que el perfil generado puede ser utilizado por un LLM para simular razonablemente la forma de responder de la persona original.
