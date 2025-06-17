@@ -7,21 +7,21 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
-# Descargar el modelo y tokenizer
+# Descargar el modelo y tokenizer (con autenticación)
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
+
+# Descargar el modelo y tokenizer (con autenticación)
 model_name = "mistralai/Mistral-7B-Instruct-v0.2"
 tokenizer = AutoTokenizer.from_pretrained(
     model_name,
-    trust_remote_code=True
+    trust_remote_code=True,
 )
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
     torch_dtype=torch.bfloat16,
     device_map="auto",
-    load_in_4bit=True,
-    bnb_4bit_compute_dtype=torch.bfloat16,
-    bnb_4bit_quant_type="nf4",
-    bnb_4bit_use=True,
-    trust_remote_code=True
+    trust_remote_code=True,
 )
 
 # Guardar localmente
