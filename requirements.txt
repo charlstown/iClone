@@ -4,3 +4,5 @@ datasets
 huggingface_hub
 accelerator
 bitsandbytes
+llama-cpp-python
+
